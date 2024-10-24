@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai Kopi</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- feather script-->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!--NAVBAR START-->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Kenangan <span class="span">Senja</span></a>
+        <div class="navbar-nav">
+            <a href="#home">Home</a> 
+            <a href="#about">Tentang Kami</a>
+            <a href="#list">Menu</a>
+            <a href="#contack">Kontak</a>
+        </div>
+        <div class="navbar-ex">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="shoping"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="menu"><i data-feather="menu"></i></a>
+
+        </div>
+    </nav>
+    
+    <!--NAVBAR END-->
+
+    <!--HERO SECTION START-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Nikmati Secangkir <span>Kopi</span></h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, iusto!</p>
+        <a href="#" class="cta">Buy Now</a>
+      </main>
+    </section>
+    <!--HERO SECTION END-->
+
+    <!--ABOUT SECTION START-->
+    <section id="about" class="about">
+      <h2><span>Tentang </span>Kami</h2>
+    <div class="row">
+      <div class="img">
+        <img src="Picture/cofee4.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3>Kenapa <span>Harus</span> Memilih Produk <span>Cofee</span> Kami?</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, qui. Nisi necessitatibus molestiae ad tenetur maxime eaque corrupti harum aperiam facere porro? Pariatur commodi optio illum architecto adipisci eum voluptatem.</p>
+      </div>
+    </div>
+  </section>
+    <!--ABOUT SECTION END-->
+
+    <!--MENU SECTION START-->
+
+    <section class="list" id="list">
+      <h2 style="color: aliceblue;">Menu <span>Kami</span></h2>
+      <p>Silahkan untuk memilih menu sesuai kebutuhan pribadi atau keluarga anda <span>selamat menikmati</span> </p>
+      <div class="produk">
+        <div class="cofee">
+        <img src="Picture/espresso.png" alt="espresso">
+        <h3 class="menu-title">Kopi <span>Espresso</span></h3>
+        <p>IDR Rp15.000,00</p>
+        </div>
+        <div class="cofee">
+        <img src="Picture/moccaLatte.png" alt="late">
+        <h3 class="menu-title">Kopi <span>Cappucino Latte</span></h3>
+        <p>IDR Rp20.000,00</p>
+        </div>
+        <div class="cofee">
+        <img src="Picture/kopiHitam.png" alt="black">
+        <h3 class="menu-title">Kopi <span>Black</span></h3>
+        <p>IDR Rp10.000,00</p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!--MENU SECTION END-->
+
+    <!--CONTACK SECTION START-->
+    <section class="contack" id="contack">
+      <h2 style="color: aliceblue;">Kontak <span>Kami</span></h2>
+      <p>Hubungi Kami Apabila Membutuhkan Bantuan <span>Semoga Beruntung</span> </p>
+
+
+      <div class="row-contack">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.60965016778!2d107.56075570447318!3d-6.9032719535213705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1716689503567!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe></iframe>
+
+      
+      <form action="" class="form">
+        <h2>Isi <span>Data </span>Dibawah ini</h2>
+       
+        <label for="username"> <div class="input">
+          <i data-feather="user"></i>
+          <input type="text" id="username"
+           placeholder="User">
+        </div></label>
+        <label for="email"><div class="input">
+          <i data-feather="mail"></i>
+          <input type="email" id="email"
+           placeholder="Gmail">
+        </div></label>
+        <label for="phone"> <div class="input">
+          <i data-feather="phone"></i>
+          <input type="text" id="phone"
+          placeholder="No Telepon">
+        </div></label>
+        <button type="submit"  class="btn">Kirim</button>
+      </form>
+    </div>
+
+    </section>
+    <!--CONTACK SECTION END-->
+
+    <!--FOOTER START-->
+    <footer class="footer">
+      <div class="social">
+        <a href=""><i data-feather="facebook"></i></a>
+        <a href=""><i data-feather="instagram"></i></a>
+        <a href=""><i data-feather="twitter"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#list">Menu</a>
+        <a href="#contack">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>created by <a href="#">faizanAR</a>. | &copy;2024.</p>
+      </div>
+    </footer>
+    <!--FOOTER END-->
+
+    <!--Father START-->
+    <script>
+      feather.replace();
+    </script>
+    <!--Father END-->
+
+
+    <!--Java script-->
+    <script src="js/index.js"></script>
+  </body>
+</html>
