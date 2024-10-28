@@ -75,7 +75,7 @@ html {scroll-behavior: smooth;}
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(../picture/cofee3.jpg);
+    background-image: url(../Picture/cofee3.jpg);
     position: relative;
 }
 /*.hero::after{
